@@ -231,11 +231,9 @@ input, select, textarea {
 		}
 
 /* Container */
-
+/* Main content (i.e. React App, etc is in the container */
 	.container {
-		margin: 0 auto;
-		max-width: 100%;
-		width: 1200px;
+		background-color: #111111;
 	}
 
 		@media screen and (max-width: 1280px) {
