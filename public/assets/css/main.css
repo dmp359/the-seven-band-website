@@ -1,5 +1,4 @@
-@import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+@import url('https://fonts.googleapis.com/css?family=B612&display=swap');
 
 /*
 	Telephasic by HTML5 UP
@@ -2042,7 +2041,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Source Sans Pro', sans-serif;
 			font-weight: 400;
 		}
 
@@ -2059,7 +2058,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Source Sans Pro', sans-serif;
 		}
 
 /* Wrappers */
@@ -2148,6 +2147,11 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
+		#logo a:hover {
+			background: rgba(255, 255, 255, 0.8);
+			color: #000;
+		}
+
 	#nav {
 		text-align: center;
 		position: absolute;
@@ -2167,7 +2171,7 @@ input, select, textarea {
 
 			#nav > ul > li {
 				display: inline-block;
-				margin-left: 1em;
+				margin-left: 4em;
 			}
 
 				#nav > ul > li > ul {
@@ -2176,18 +2180,19 @@ input, select, textarea {
 
 				#nav > ul > li > span, #nav > ul > li > a {
 					color: black;
-					background-color: #daa45c;
+					background-color: #fff;
 					text-decoration: none;
 					outline: 0;
 					border: 0;
 					border: solid 1px rgba(255, 255, 255, 0);
 					border-radius: 0.35em;
-					padding: 0.3em 1em 0.3em 1em;
+					padding: 0.6em 1em 0.6em 1em;
 					-moz-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 					-webkit-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 					-o-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 					-ms-transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 					transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+
 				}
 
 				#nav > ul > li.active > span, #nav > ul > li.active > a {
@@ -2196,6 +2201,11 @@ input, select, textarea {
 					color: #fff;
 				}
 
+				#nav > ul > li.active > span, #nav > ul > li > a:hover {
+					border-color: #daa45c;
+					background-color: #daa45c;
+					color: #fff;
+				}
 				#nav > ul > li:first-child {
 					margin-left: 0;
 				}
@@ -2398,7 +2408,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				line-height: 1.5em;
-				font-size: 20pt;
+				font-size: 12pt;
 			}
 
 			span.extra {
@@ -2416,7 +2426,7 @@ input, select, textarea {
 			}
 
 			.homepage #header-wrapper {
-				padding: 27em 0 1em 0;
+				padding: 25em 0 1em 0;
 			}
 
 			#promo-wrapper {
@@ -2649,8 +2659,13 @@ input, select, textarea {
 	#navPanel, #navButton {
 		display: none;
 	}
+	@media screen and (max-width: 870px) {
+		body {
+			font-size: 11pt;
+		}
+	}
 
-	@media screen and (max-width: 819px) {
+	@media screen and (max-width: 840px) {
 
 		/* Basic */
 
